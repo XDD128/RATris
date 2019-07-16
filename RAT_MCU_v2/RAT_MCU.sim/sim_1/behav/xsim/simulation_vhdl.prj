@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../RAT_MCU.srcs/sources_1/imports/weise/Desktop/REG_FILE/REG_FILE.srcs/sources_1/new/REG_FILE.vhd" \
+"../../../../RAT_MCU.srcs/sim_1/new/REG_FILE_sim.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Nov 27 16:37:57 2018
+# Process ID: 5240
+# Current directory: C:/Users/weise/Desktop/RAT_MCU_v2/joystick_driver/joystick_driver.runs/synth_1
+# Command line: vivado.exe -log driver.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source driver.tcl
+# Log file: C:/Users/weise/Desktop/RAT_MCU_v2/joystick_driver/joystick_driver.runs/synth_1/driver.vds
+# Journal file: C:/Users/weise/Desktop/RAT_MCU_v2/joystick_driver/joystick_driver.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source driver.tcl -notrace

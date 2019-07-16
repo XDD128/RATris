@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Nov 14 18:33:48 2018
+# Process ID: 8380
+# Current directory: C:/Users/weise/Desktop/RAT_MCU_v2/keypad_driver/keypad_driver.runs/impl_1
+# Command line: vivado.exe -log keypad_driver_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source keypad_driver_top.tcl -notrace
+# Log file: C:/Users/weise/Desktop/RAT_MCU_v2/keypad_driver/keypad_driver.runs/impl_1/keypad_driver_top.vdi
+# Journal file: C:/Users/weise/Desktop/RAT_MCU_v2/keypad_driver/keypad_driver.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source keypad_driver_top.tcl -notrace

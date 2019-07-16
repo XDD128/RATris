@@ -1,0 +1,133 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Dec  6 21:46:39 2018
+# Process ID: 9404
+# Current directory: C:/Users/weise/Desktop/RAT_MCU_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10104 C:\Users\weise\Desktop\RAT_MCU_v2\RAT_MCU.xpr
+# Log file: C:/Users/weise/Desktop/RAT_MCU_v2/vivado.log
+# Journal file: C:/Users/weise/Desktop/RAT_MCU_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/weise/Desktop/RAT_MCU_v2/RAT_MCU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 707.328 ; gain = 87.344
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Dec  6 21:54:32 2018] Launched synth_1...
+Run output will be captured here: C:/Users/weise/Desktop/RAT_MCU_v2/RAT_MCU.runs/synth_1/runme.log
+[Thu Dec  6 21:54:32 2018] Launched impl_1...
+Run output will be captured here: C:/Users/weise/Desktop/RAT_MCU_v2/RAT_MCU.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 748.980 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Common 17-165] Too many positional options when parsing '-exp', please type 'close_hw_target -help' for usage info.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Common 17-165] Too many positional options when parsing '-exp', please type 'close_hw_target -help' for usage info.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Common 17-165] Too many positional options when parsing '-exp', please type 'close_hw_target -help' for usage info.
+ERROR: [Common 17-165] Too many positional options when parsing '-exp', please type 'close_hw_target -help' for usage info.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw_target {localhost:3121/xilinx_tcf/Basys3/Digilent Basys3}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+disconnect_hw_server
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+localhost:3121
+open_hw_target {localhost:3121/xilinx_tcf/Basys3/Digilent Basys3}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+disconnect_hw_server
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Common 17-165] Too many positional options when parsing '-exp', please type 'close_hw_target -help' for usage info.
+disconnect_hw_server
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Basys3/Digilent Basys3.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  6 22:09:53 2018...

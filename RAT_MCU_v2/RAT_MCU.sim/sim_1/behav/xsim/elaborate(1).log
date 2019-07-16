@@ -1,0 +1,39 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8e60e635e37349959d95b4413a9d69f5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MCUsim_behav xil_defaultlib.MCUsim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_textio
+Compiling architecture behavioral of entity xil_defaultlib.ControlUnit [controlunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.programCounter [programcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.pc_mux [pc_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(initp_00="001000101100...]
+Compiling architecture ramb16_s18_v of entity unisim.RAMB16_S18 [\RAMB16_S18(initp_00="0010001011...]
+Compiling architecture low_level_definition of entity xil_defaultlib.prog_rom [prog_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.REG_FILE [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU_MUX [alu_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.C [c_default]
+Compiling architecture behavioral of entity xil_defaultlib.Z [z_default]
+Compiling architecture behavioral of entity xil_defaultlib.stack_pointer [stack_pointer_default]
+Compiling architecture behavioral of entity xil_defaultlib.Scratch_RAM [scratch_ram_default]
+Compiling architecture behavioral of entity xil_defaultlib.MCU [mcu_default]
+Compiling architecture behavioral of entity xil_defaultlib.mcusim
+Built simulation snapshot MCUsim_behav
